@@ -1,0 +1,63 @@
+body {
+    text-align: center
+}
+
+h1 {
+    text-align: center
+}
+
+button {
+    background-color: black;
+    color: white
+}
+
+.buttonCont {
+    text-align: center
+}
+
+footer {
+    position: absolute;
+    bottom: 5%;
+    text-align: start
+}
+
+.relativeFooter {
+    position: relative
+}
+
+@media (min-width: 1000px) {
+    p {
+        font-size: 25px
+    }
+
+    .formula {
+        font-size: 25px
+    }
+
+    button {
+        font-size: 25px
+    }
+
+    a {
+        font-size: 25px
+    }
+}
+
+@media (max-width: 999px) {
+    p {
+        font-size: 19px;
+        margin: 5px 0 5px 0
+    }
+
+    .formula {
+        font-size: 19px
+    }
+
+    button {
+        font-size: 25px
+    }
+
+    a {
+        font-size: 20px
+    }
+}
